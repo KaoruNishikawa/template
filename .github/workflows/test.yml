@@ -24,9 +24,9 @@ jobs:
           pip3 install poetry
           poetry install
       - name: Lint by Flake8 
-        run: poetry run flake8 tests n_const
+        run: poetry run flake8 tests script
       - name: Format by Black
-        run: poetry run black --check tests n_const
+        run: poetry run black --check tests script
       - name: Test by pytest
-        run: poetry run pytest -v tests n_const
+        run: poetry run pytest -v tests script
 
