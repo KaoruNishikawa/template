@@ -1,4 +1,4 @@
-# python_pkg_template
+# python-template
 
 [![PyPI](https://img.shields.io/pypi/v/PACKAGENAME.svg?label=PyPI&style=flat-square)](https://pypi.org/pypi/PACKAGENAME/)
 [![Python](https://img.shields.io/pypi/pyversions/PACKAGENAME.svg?label=Python&color=yellow&style=flat-square)](https://pypi.org/pypi/PACKAGENAME/)
@@ -27,4 +27,4 @@ pip install PACKAGENAME
 
 ---
 
-- This library is using [Semantic Versioning](https://semver.org).
+This library is using [Semantic Versioning](https://semver.org).
