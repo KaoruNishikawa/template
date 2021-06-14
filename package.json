@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "Template.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaoruNishikawa/template.git"
+  },
+  "author": "Kaoru Nishikawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaoruNishikawa/template/issues"
+  },
+  "homepage": "https://github.com/KaoruNishikawa/template#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {}
+}
