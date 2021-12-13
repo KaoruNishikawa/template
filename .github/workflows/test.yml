@@ -13,6 +13,8 @@ jobs:
     strategy:
       matrix:
         python-version: [3.6, 3.7, 3.8, 3.9]
+    env:
+      PACKAGE_NAME: script
     steps:
       - uses: actions/checkout@v2
       - name: Setup Python ${{ matrix.python-version }}
@@ -24,9 +26,9 @@ jobs:
           pip3 install poetry
           poetry install
       - name: Lint by Flake8 
-        run: poetry run flake8 tests script
+        run: poetry run flake8 tests ${PACKAGE_NAME}
       - name: Format by Black
-        run: poetry run black --check tests script
+        run: poetry run black --check tests ${PACKAGE_NAME}
       - name: Test by pytest
-        run: poetry run pytest -v tests script
+        run: poetry run pytest -v tests ${PACKAGE_NAME}
 
