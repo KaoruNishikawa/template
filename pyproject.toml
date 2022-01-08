@@ -9,7 +9,7 @@ homepage = "https://github.com/USERNAME/PACKAGENAME"
 repository = "https://github.com/USERNAME/PACKAGENAME"
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
+python = "^3.7.1"
 numpy = "^1.19"
 
 [tool.poetry.dev-dependencies]
