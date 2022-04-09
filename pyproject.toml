@@ -5,8 +5,8 @@ description = "TEMPLATE"
 license = "MIT"
 readme = "README.md"
 authors = ["KaoruNishikawa <k.nishikawa@a.phys.nagoya-u.ac.jp>"]
-homepage = "https://github.com/USERNAME/PACKAGENAME"
-repository = "https://github.com/USERNAME/PACKAGENAME"
+homepage = "https://github.com/KaoruNishikawa/PACKAGENAME"
+repository = "https://github.com/KaoruNishikawa/PACKAGENAME"
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
@@ -21,7 +21,7 @@ m2r2 = "^0.2"
 notebook = "^6.4"
 pydata-sphinx-theme = "^0.4"
 pytest = "^5.2"
-sphinx = "^3.3"
+sphinx = "^4.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
