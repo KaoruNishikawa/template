@@ -4,8 +4,8 @@ import PACKAGENAME
 # -- Project information -----------------------------------------------------
 
 project = "PACKAGENAME"
-copyright = "YEAR, AUTHOR"
-author = "AUTHOR"
+copyright = "YEAR, Kaoru Nishikawa"
+author = "Kaoru Nishikawa"
 release = version = PACKAGENAME.__version__
 
 # -- General configuration ---------------------------------------------------
