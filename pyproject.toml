@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "PACKAGENAME"
+name = "package-name"
 version = "0.1.0"
 description = "TEMPLATE"
 license = "MIT"
 readme = "README.md"
 authors = ["KaoruNishikawa <k.nishikawa@a.phys.nagoya-u.ac.jp>"]
-homepage = "https://github.com/KaoruNishikawa/PACKAGENAME"
-repository = "https://github.com/KaoruNishikawa/PACKAGENAME"
+homepage = "https://github.com/KaoruNishikawa/Package-Name"
+repository = "https://github.com/KaoruNishikawa/Package-Name"
 
 [tool.poetry.dependencies]
-python = "^3.7.1"
+python = "^3.6"
 numpy = "^1.19"
 
 [tool.poetry.dev-dependencies]
@@ -20,7 +20,7 @@ jupyter = "^1.0"
 m2r2 = "^0.2"
 notebook = "^6.4"
 pydata-sphinx-theme = "^0.7"
-pytest = "^6.2"
+pytest = "^5.2"
 sphinx = "^4.4"
 
 [build-system]
