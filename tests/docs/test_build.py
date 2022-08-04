@@ -43,7 +43,6 @@ def test_create_stub(tmp_project_dir: Path):
         capture_output=True,
     )
     assert result.returncode == 0
-    assert result.stderr == b""
 
 
 @pytest.mark.skipif(
@@ -67,5 +66,4 @@ def test_build(tmp_project_dir: Path):
     )
     print(result.stderr, result.stdout)
     assert result.returncode == 0
-    assert result.stderr == b""
 
