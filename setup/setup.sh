@@ -52,10 +52,8 @@ done
 
 cd $(dirname $0)/../
 
-mv ./package_name ./$PACKAGE_NAME
-
 # Replace matching strings in files.
-for file in 'README.md' 'pyproject.toml' 'docs/conf.py' 'docs/index.md' 'tests/docs/test_build.py' 'tests/test_nothing.py' '.github/workflows/test.yml'
+for file in 'README.md' 'pyproject.toml' 'docs/conf.py' 'docs/index.md' 'tests/docs/test_build.py' 'tests/test_nothing.py' '.github/workflows/test.yml' 'package_name/__init__.py'
 do
     if [ -f $file ]
     then
@@ -65,6 +63,7 @@ do
         rm $file.bak
     fi
 done
+mv ./package_name ./$PACKAGE_NAME
 
 cd -
 exit 0
