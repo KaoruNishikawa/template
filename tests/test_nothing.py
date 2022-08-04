@@ -1,4 +1,4 @@
-import package_name
+import package_name  # noqa: F401
 
 
 def test_nothing():
