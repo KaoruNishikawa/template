@@ -53,7 +53,7 @@ done
 cd $(dirname $0)/../
 
 # Replace matching strings in files.
-for file in 'README.md' 'pyproject.toml' 'docs/conf.py' 'docs/index.md' 'tests/docs/test_build.py' 'tests/test_nothing.py' '.github/workflows/test.yml' 'package_name/__init__.py'
+for file in 'README.md' 'pyproject.toml' 'docs/conf.py' 'docs/index.md' 'tests/docs/test_build.py' 'tests/test_nothing.py' '.github/workflows/gh-pages.yml' '.github/workflows/test.yml' 'package_name/__init__.py'
 do
     if [ -f $file ]
     then
