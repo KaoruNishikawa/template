@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { type ReactNode, useState } from 'react'
 import styles from './page.module.scss'
 import logo from '@/../public/logo.svg'
+import './globals.scss'
 
 export default function Home(): ReactNode {
     const [count, setCount] = useState<number>(0)
